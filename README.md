@@ -1,75 +1,60 @@
-A project form 'LastCoder' 'spread' that helps us to digitlize India 
- our moto is to make India 
-
- ->faster and smoother Roads
- ->every road have good street light
- ->better dustbin faclity in every area 
-
---------------------------------------------------------------------------------
- folder structure
- The project is divided into two parts "Client" and "Server"
-
- client folder: for Fortent
- client have pages section in which we have all our pages like homepage, register etc .
-
- server folder: For backend
-
- In index.js file we have all our server logic
- In uploads folder we have all our images
+# Mongodb and Node js must be install 
+Mongodb link:https://www.mongodb.com/try/download/community
 
 
--------------------------------------------------------------------------------------
+Nodejs link: https://nodejs.org/en
 
-Preqs :-
-Mongodb, MongoShell and Node js Must be Installed into your system.
+The main idea of the project to digitlize jharkhand with our idea:
+
  
 
-------------------------------------------------------------------------------------
-
-
-Setup The Project In your Local System
-
-steps for setup
-->Clone or  download the code 
-    if you clone the repository you will get project folder or
-     you will get a zip file when you download
--> extract the zip file if you downloaded
--> open that folder in vs code 
--> now split the terminal in vs code one for server and one for client
--> in first terminal type 'cd client' and then type  'npm install' and for starting the server use 'npm run dev'
--> in second terminal type 'cd server' and then 'npm install' and for starting the server use command 'npm run dev'
--> go to brower and type 'localhost:5173
-
---------------------------------------------------------------------------------------
-
-Future Plans
--> Integrating google maps
-->  Custom Marker
--> Seprate app for adminstrator, Worker and user
-    Adminstrator will be Gvernment bodies.
-    Worker will be the person assignend for reported problem.
-    user will be civiliens
--> Every post have Vote and comment button that determine priorty and increase interactivity 
-   of the report.
--> Various Filter optins like filter by Pincode, Area Name etc. for both adminstrator and user.
-
---------------------------------------------------------------------------------------
-
-
-Technology used in this Project
-Client
-    React js :- for Fontent
-    Bootstrap :- for Styling
-    JWT :- For Authenticating token in client side.
-Server
-    Nodejs :- For javaScript RunTIme
-    Express :- For API
-    Multer :- For image uploading
-    becrypt :- For converting Password into Hashes.
-    Mongose :- For Managining Mongodb database.
-DataBase
-    MongoDB
 
 
 
-We invite intersted person for contributing to this project. 
+# Table of contents
+
+# Technology Stack
+1. REACT (Frontend)  
+2. BOOTSTRAP
+3. NODEJS(javascript runtime)
+4. EXPRESS(for APIS)
+5  JWT(FOR AUTHENCATION)
+6. BCRYPT(for password hashing)
+7. Multer(for uploding images)
+
+
+
+# Installation guidlines
+project is divided in two folders 'client' and 'server'
+
+1. download or clone the repo
+2. open the folder in vs code 
+3. split the terminal in two parts
+4. In first terminal type 'cd client' and type'npm install' and in second terminal type'cd server' and type 'npm install'
+5.now type 'npm run dev' in both the terminals'
+6.Now go to any browser and type 'localhost:5173'
+
+
+
+
+# Contributors
+1. Dheeraj kumar verma
+2. sonu kumar saw
+3. Rupesh pandit
+
+
+
+# upcoming features
+
+
+1. google map integration
+2. custom marker in map
+3. seperate app for admin
+4. worker and admin will be govt bodies
+5. Every post have vote and comment button that determin priority of the report 
+5. various filtration option like: Pincode, Area Name, etc for both admin and for user 
+
+
+# we invite intrested person to contribute to this project
+
+
