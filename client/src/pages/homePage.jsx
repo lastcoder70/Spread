@@ -100,7 +100,7 @@ export default function homepage(){
 <div className="AllCardContainer">
       {data.map((item, index) => (
         <div key={index} className="card mt-4"   style={{ width: "20rem" }}>
-          <img className="card-img-top" src={item.image[0]}height='220rem' alt={item.alt} />
+          <img className="card-img-top" src={"http://localhost:1337/" + item.image[0]}height='220rem' alt={item.alt} />
           <div className="card-body">
             <h5 className="card-title">{item.title}</h5>
             <p className="card-text">
