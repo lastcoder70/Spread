@@ -15,7 +15,7 @@ const App =()=>{
 <Route path='/' exact Component={Homepage}/>
   <Route path='/login' exact Component={Login}/>
   <Route path='/register' exact Component={Register}/>
-  <Route path='/dashboard' exact Component={Dashboard}/>
+  <Route path='/dashboard' exact Component={Homepage}/>
   <Route path='/admin' exact Component={Admin}/>
   {/* <Route path='/upload' exact Component={Admin}/> */}
   <Route path='/report' exact Component={Repot}/>

@@ -14,6 +14,8 @@ const user = require("./models/user");
 
 app.use(express.json());
 app.use(cors());
+app.use("/uploads",express.static("uploads"));
+
 
 mongoose.connect("mongodb://127.0.0.1:27017/civilians").then(() => {
   console.log("connection succeded");
