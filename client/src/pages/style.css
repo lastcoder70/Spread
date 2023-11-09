@@ -1,0 +1,16 @@
+
+.AllCardContainer{
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+   }
+   @media screen and (max-width: 768px) {
+      .AllCardContainer{
+       display: flex;
+       gap: 3px;
+       justify-content: center;
+       align-items: center; 
+      }
+   
+   
+     }
