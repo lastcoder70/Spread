@@ -33,7 +33,7 @@ steps for setup
 -> open that folder in vs code 
 -> now split the terminal in vs code one for server and one for client
 -> in first terminal type 'cd client' and then type  'npm install' and for starting the server use 'npm run dev'
--> in second terminal type 'cd server' and then 'npm install' and for starting the server use command 'npm run dev'
+-> in second terminal type 'cd server' and then 'npm install' and for starting the server use command 'nodemon index.js'
 -> go to brower and type 'localhost:5173
 
 
