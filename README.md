@@ -31,8 +31,8 @@ project is divided in two folders 'client' and 'server'
 2. open the folder in vs code 
 3. split the terminal in two parts
 4. In first terminal type 'cd client' and type'npm install' and in second terminal type'cd server' and type 'npm install'
-5.now type 'npm run dev' in both the terminals'
-6.Now go to any browser and type 'localhost:5173'
+5. now type 'npm run dev' in both the terminals'
+6. Now go to any browser and type 'localhost:5173'
 
 
 
