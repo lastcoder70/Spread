@@ -28,11 +28,12 @@ The main idea of the project to digitlize jharkhand with our idea:
 project is divided in two folders 'client' and 'server'
 
 1. download or clone the repo
-2. open the folder in vs code 
-3. split the terminal in two parts
-4. In first terminal type 'cd client' and type'npm install' and in second terminal type'cd server' and type 'npm install'
-5. now type 'npm run dev' in both the terminals'
-6. Now go to any browser and type 'localhost:5173'
+2. open the folder in vs code
+3. if uploads folder doesn't exist in server folder create 'uploads' folder in server 'folder'
+4. split the terminal in two parts
+5. In first terminal type 'cd client' and type'npm install' and in second terminal type'cd server' and type 'npm install'
+6. now type 'npm run dev' in both the terminals'
+7. Now go to any browser and type 'localhost:5173'
 
 
 
