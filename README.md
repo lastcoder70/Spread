@@ -35,6 +35,11 @@ project is divided in two folders 'client' and 'server'
 6. now type 'npm run dev' in both the terminals'
 7. Now go to any browser and type 'localhost:5173'
 
+# NOTE
+At first we want our application should be functional rather than focusing on user interface and we will continue adding new feature and UI will be improved
+soon
+
+
 
 
 
@@ -42,6 +47,8 @@ project is divided in two folders 'client' and 'server'
 1. Dheeraj kumar verma
 2. sonu kumar saw
 3. Rupesh pandit
+
+
 
 
 
