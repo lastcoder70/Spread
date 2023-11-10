@@ -32,18 +32,18 @@ export default function loginPage() {
 
   return (
     <>
-    
-  
-      <div className="row pt-2">
-        <div className="col-lg-3"></div>
-        <div className="col col-lg-6 h px-3 pb-2 border-bottom ">
+
+
+      <div className="row pt-2 mt-5 mx-2">
+        {/* <div className="col-lg-3"></div> */}
+        <div className="col-lg-4 col-sm-6 px-3 m-auto pb-2 shadow  ">
           <h2 className="text-dark">LogIn</h2>
           <form onSubmit={loginUser}>
             <div className="form-group">
-              <label for="exampleInputEmail1">Email address</label>
+              {/* <label for="exampleInputEmail1">Email address</label> */}
               <input
                 type="email"
-                className="form-control rounded-pill"
+                className="form-control mt-3 rounded-0 border-0 border-success border-3 border-bottom"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Enter email"
@@ -53,12 +53,13 @@ export default function loginPage() {
               <small id="emailHelp" className="form-text text-muted">
                 We'll never share your email with anyone else.
               </small>
+
             </div>
-            <div className="form-group">
-              <label for="exampleInputPassword1">Password</label>
+            <div className="form-group mt-2">
+              {/* <label for="exampleInputPassword1">Password</label> */}
               <input
                 type="password"
-                className="form-control rounded-pill"
+                className="form-control rounded-0 border-0 border-success border-3 border-bottom my-3"
                 id="exampleInputPassword1"
                 placeholder="Password"
                 value={password}
@@ -67,13 +68,19 @@ export default function loginPage() {
                 }}
               />
             </div>
+            <div className="row my-4">
+            <div className="col-lg-6 col-sm-6">
+              <a href="/register" className="link d-block text-success">Create an Account</a>
+            </div>
+              <div className="col-lg-6  col-sm-6 ml-auto text-end">
+                <button type="submit" className="btn btn-success"> LogIn </button>
+              </div>
+            </div>
 
-            <button type="submit" className="btn btn-success mt-2">
-              LogIn
-            </button>
+
+
           </form>
         </div>
-        <div className="col col-lg-2 h" v></div>
       </div>
     </>
   );
