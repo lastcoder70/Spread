@@ -25,35 +25,9 @@ export default function homepage() {
 
 
   const navigate = useNavigate();
-  function goToLoginPage(e) {
-    e.preventDefault();
-    navigate('/login');
-
-  }
-  function goToSignUpPage(e) {
-    e.preventDefault();
-    navigate('/register')
-
-  }
-
-  function checkAndFindToken(e) {
-
-    const token = localStorage.getItem('token')
-    if (token) {
-      const user = jwtDecode(token);
-      if (!user) {
-        localStorage.removeItem('token')
-      }
-      navigate('/report')
-
-    }
-    else {
-      navigate('/login')
-    }
+ 
 
 
-
-  }
 
   async function fetchData() {
     try {
