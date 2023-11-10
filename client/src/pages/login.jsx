@@ -35,19 +35,9 @@ export default function loginPage() {
     
   
       <div className="row pt-2">
-        <div className="col col-lg-2 h ">
-          <a href="#" className="px-1 rounded text-white active">
-            Home
-          </a>
-          <a href="#" className="p-1 rounded">
-            Report
-          </a>
-          <a href="#" className="p-1 rounded">
-            Profile
-          </a>
-        </div>
-        <div className="col col-lg-8 h px-3 pb-2 border-bottom ">
-          <h2 className="text-light">LogIn</h2>
+        <div className="col-lg-3"></div>
+        <div className="col col-lg-6 h px-3 pb-2 border-bottom ">
+          <h2 className="text-dark">LogIn</h2>
           <form onSubmit={loginUser}>
             <div className="form-group">
               <label for="exampleInputEmail1">Email address</label>
@@ -78,8 +68,8 @@ export default function loginPage() {
               />
             </div>
 
-            <button type="submit" className="btn btn-primary">
-              Submit
+            <button type="submit" className="btn btn-success mt-2">
+              LogIn
             </button>
           </form>
         </div>
