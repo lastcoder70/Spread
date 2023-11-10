@@ -7,10 +7,13 @@ import Dashboard from './pages/dashboard'
 import Homepage from "./pages/homePage";
 import Admin from './pages/admin'
 import Repot from "./report"
+import Navbar from "./component/navbar";
 const App =()=>{
     return (
 <>
-<BrowserRouter>
+      <Navbar/>
+
+      <BrowserRouter>
 <Routes>
 <Route path='/' exact Component={Homepage}/>
   <Route path='/login' exact Component={Login}/>
