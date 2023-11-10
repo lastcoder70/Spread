@@ -4,7 +4,13 @@ Mongodb link:https://www.mongodb.com/try/download/community
 
 Nodejs link: https://nodejs.org/en
 
-The main idea of the project to digitlize jharkhand with our idea:
+ A project form 'LastCoder' 'spread' that helps us to digitlize India 
+ our moto is to make India 
+
+ -> faster and smoother Roads
+ -> every road have good street light
+ -> better dustbin faclity in every area 
+ 
 
  
 
