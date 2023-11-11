@@ -1,3 +1,12 @@
+![alt logo](https://github.com/sonu36437/spread/blob/main/client/src/images/logo.png)
+
+A project form 'LastCoder' 'spread' that helps us to digitlize India our moto is to make India
+
+faster and smoother Roads
+every road have good street light
+better dustbin faclity in every area
+
+
 # Mongodb and Node js must be install 
 Mongodb link:https://www.mongodb.com/try/download/community
 
@@ -34,7 +43,8 @@ project is divided in two folders 'client' and 'server'
 5. now type 'npm run dev' in both the terminals'
 6. Now go to any browser and type 'localhost:5173'
 
-
+# Note
+You can see several pages like home, login, signup, report and admin dashboard (for admin page go to url 'localhost:5173/admin' )
 
 
 # Contributors
