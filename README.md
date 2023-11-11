@@ -2,9 +2,10 @@
 
 A project form 'LastCoder' 'spread' that helps us to digitlize India our moto is to make India
 
-faster and smoother Roads
-every road have good street light
-better dustbin faclity in every area
+1. faster and smoother Roads
+2. every road have good street light
+3. better dustbin faclity in every area
+4. Raise public voice
 
 
 # Mongodb and Node js must be install 
