@@ -23,7 +23,7 @@ export default function Navbar() {
           </li>
   
           <li className="nav-item">
-            <a href="/report" className="nav-link">Report</a>
+            <a href="/report" className="nav-link">Post an issue</a>
           </li>
          
         </ul>
