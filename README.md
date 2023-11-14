@@ -1,10 +1,29 @@
+![alt logo](https://github.com/sonu36437/spread/blob/main/client/src/images/logo.png)
+
+A project form 'LastCoder' 'spread' that helps us to digitlize India our moto is to make India
+
+1. faster and smoother Roads
+2. every road have good street light
+3. better dustbin faclity in every area
+4. Raise public voice
+
+
 # Mongodb and Node js must be install 
 Mongodb link:https://www.mongodb.com/try/download/community
 
 
 Nodejs link: https://nodejs.org/en
 
-The main idea of the project to digitlize jharkhand with our idea:
+ A project form 'LastCoder' 'spread' that helps us to digitlize India 
+ our moto is to make India 
+
+ 1. faster and smoother Roads
+ 2. every road have good street light
+ 3. better dustbin faclity in every area
+
+# problem statement:
+
+Through our project people can report about the problem in their locality like: damaged road, overflowing or lack of dustbin, damaged street light these problem can be posted by user like we post something in instagram  and facebook and if the problem is found correct by the government bodies they can take action for that problem.
 
  
 
@@ -16,11 +35,12 @@ The main idea of the project to digitlize jharkhand with our idea:
 # Technology Stack
 1. REACT (Frontend)  
 2. BOOTSTRAP
-3. NODEJS(javascript runtime)
-4. EXPRESS(for APIS)
-5  JWT(FOR AUTHENCATION)
-6. BCRYPT(for password hashing)
-7. Multer(for uploding images)
+3. NODEJS (javascript runtime)
+4. EXPRESS
+5  JWT (FOR AUTHENCATION)
+6. BCRYPT (for password hashing)
+7. Multer (for uploding images)
+8. MongoDB (for Database)
 
 
 
@@ -28,19 +48,30 @@ The main idea of the project to digitlize jharkhand with our idea:
 project is divided in two folders 'client' and 'server'
 
 1. download or clone the repo
-2. open the folder in vs code 
+2. open the folder in vs code
 3. split the terminal in two parts
 4. In first terminal type 'cd client' and type'npm install' and in second terminal type'cd server' and type 'npm install'
-5. now type 'npm run dev' in both the terminals'
-6. Now go to any browser and type 'localhost:5173'
+5. if 'uploads' folder is not present in the 'server' folder please create a folder name 'uploads' inside the 'server' folder
+6. now type 'npm run dev' in both the terminals'
+7. Now go to any browser and type 'localhost:5173'
+
+In the local enviroment there will be nothing in the home screen you will have to post report by going to report section and please make sure that 'uploads' folder is present inside the 'server' folder .
+
+# NOTE
+At first we want our application should be functional rather than focusing on user interface and we will continue adding new feature and UI will be improved
+soon
 
 
+# Note
+You can see several pages like home, login, signup, report and admin dashboard (for admin page go to url 'localhost:5173/admin' )
 
 
 # Contributors
 1. Dheeraj kumar verma
 2. sonu kumar saw
 3. Rupesh pandit
+
+
 
 
 
