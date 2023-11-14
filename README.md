@@ -22,11 +22,12 @@ Nodejs link: https://nodejs.org/en
 # Technology Stack
 1. REACT (Frontend)  
 2. BOOTSTRAP
-3. NODEJS(javascript runtime)
-4. EXPRESS(for APIS)
-5  JWT(FOR AUTHENCATION)
-6. BCRYPT(for password hashing)
-7. Multer(for uploding images)
+3. NODEJS (javascript runtime)
+4. EXPRESS
+5  JWT (FOR AUTHENCATION)
+6. BCRYPT (for password hashing)
+7. Multer (for uploding images)
+8. MongoDB (for Database)
 
 
 
@@ -40,6 +41,8 @@ project is divided in two folders 'client' and 'server'
 5. if 'uploads' folder is not present in the 'server' folder please create a folder name 'uploads' inside the 'server' folder
 6. now type 'npm run dev' in both the terminals'
 7. Now go to any browser and type 'localhost:5173'
+
+In the local enviroment there will be nothing in the home screen you will have to post report by going to report section and please make sure that 'uploads' folder is present inside the 'server' folder .
 
 # NOTE
 At first we want our application should be functional rather than focusing on user interface and we will continue adding new feature and UI will be improved
