@@ -9,8 +9,11 @@ Nodejs link: https://nodejs.org/en
 
  1. faster and smoother Roads
  2. every road have good street light
- 3. better dustbin faclity in every area 
- 
+ 3. better dustbin faclity in every area
+
+# problem statement:
+
+Through our project people can report about the problem in their locality like: damaged road, overflowing or lack of dustbin, damaged street light these problem can be posted by user like we post something in instagram  and facebook and if the problem is found correct by the government bodies they can take action for that problem.
 
  
 
