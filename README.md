@@ -7,20 +7,6 @@ A project form 'LastCoder' 'spread' that helps us to digitlize India our moto is
 3. better dustbin faclity in every area
 4. Raise public voice
 
-
-# Mongodb and Node js must be install 
-Mongodb link:https://www.mongodb.com/try/download/community
-
-
-Nodejs link: https://nodejs.org/en
-
- A project form 'LastCoder' 'spread' that helps us to digitlize India 
- our moto is to make India 
-
- 1. faster and smoother Roads
- 2. every road have good street light
- 3. better dustbin faclity in every area
-
 # Problem statement :
 
 
@@ -38,6 +24,8 @@ The core functionality of "Spread" is centered around empowering users to effort
 One of the key features of "Spread" is its real-time tracking mechanism, allowing users to monitor the status and progress of their submitted reports. This transparency enhances civic engagement, instilling a sense of accountability and trust between citizens and government bodies. By providing a platform for direct communication and feedback, "Spread" fosters a collaborative environment where community members actively contribute to the betterment of their surroundings.
 
 "Spread" not only serves as a reporting tool but also as a catalyst for community involvement. Through its user-centric approach and innovative features, the web app aims to create a virtuous cycle of responsibility, where citizens feel empowered to actively participate in the maintenance and improvement of their local environment. As "Spread" spreads its influence, it aspires to contribute to the development of safer, cleaner, and more efficiently managed urban spaces.
+
+
 
 
 
@@ -62,7 +50,18 @@ One of the key features of "Spread" is its real-time tracking mechanism, allowin
 
 
 
+
+
 # Installation guidlines
+
+
+
+
+# Mongodb and Node js must be install 
+Mongodb link:https://www.mongodb.com/try/download/community
+Nodejs link: https://nodejs.org/en
+
+
 project is divided in two folders 'client' and 'server'
 
 1. download or clone the repo
