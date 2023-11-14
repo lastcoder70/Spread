@@ -25,17 +25,6 @@ One of the key features of "Spread" is its real-time tracking mechanism, allowin
 
 "Spread" not only serves as a reporting tool but also as a catalyst for community involvement. Through its user-centric approach and innovative features, the web app aims to create a virtuous cycle of responsibility, where citizens feel empowered to actively participate in the maintenance and improvement of their local environment. As "Spread" spreads its influence, it aspires to contribute to the development of safer, cleaner, and more efficiently managed urban spaces.
 
-
-
-
-
-
-
- 
-
-
-
-
 # Table of contents
 
 # Technology Stack
@@ -48,17 +37,11 @@ One of the key features of "Spread" is its real-time tracking mechanism, allowin
 7. Multer (for uploding images)
 8. MongoDB (for Database)
 
-
-
-
-
 # Installation guidlines
-
-
-
 
 # Mongodb and Node js must be install 
 Mongodb link:https://www.mongodb.com/try/download/community
+
 Nodejs link: https://nodejs.org/en
 
 
