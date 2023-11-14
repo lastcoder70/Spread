@@ -82,7 +82,7 @@ export default function Report() {
                     <div className='col-lg-2'></div>
 
                     <div className="col-lg-8 col-sm-12">
-                    <h2 className='mt-2'>Report An Issue</h2>
+                    <h2 className='mt-2'>Post An Issue</h2>
                         <label> Photo</label>
                         <ImageForm callback={setImage1} />
                         <ImageForm callback={setImage2} />
@@ -118,7 +118,7 @@ export default function Report() {
                         
                             <input className="btn btn-primary mx-4" onClick={async () => { await getLocation();  }} type="button" name='cordinates' value="Location"></input>
                          
-                           {btnState && <button  className="btn btn btn-success" type="submit">Submit</button>}
+                           {btnState && <button  className="btn btn btn-success" type="submit">Post</button>}
 
                         </div>
                     </div>
