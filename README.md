@@ -57,6 +57,9 @@ project is divided in two folders 'client' and 'server'
 
 In the local enviroment there will be nothing in the home screen you will have to post report by going to report section and please make sure that 'uploads' folder is present inside the 'server' folder .
 
+# Flow chart
+![alt logo](https://i.ibb.co/k5tpcZL/Spread-Flow-Diagram-drawio.png)
+
 # NOTE
 At first we want our application should be functional rather than focusing on user interface and we will continue adding new feature and UI will be improved
 soon
